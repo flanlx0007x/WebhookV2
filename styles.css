@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #333; /* สีพื้นหลังของเว็บ */
+    color: #fff; /* สีข้อความ */
+}
+
+.input-group {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group label {
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 250px;
+}
+
+button {
+    background-color: #7289da;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #546e7a;
+}
