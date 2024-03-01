@@ -33,7 +33,13 @@ function generateRandomName() {
         "ProblemSolver", "Strategist", "Administrator", "Coordinator",
         "Agent", "Advocate", "Moderator", "Technician",
         "Specialist", "Ambassador", "Facilitator", "Coordinator",
-        "Liaison", "Representative", "Director", "Manager"
+        "Liaison", "Representative", "Director", "Manager","Dispatcher", "Steward", "Operator", "Executor",
+    "Stimulator", "Conductor", "Organizer", "Handler",
+    "Sponsor", "Leader", "Consultant", "Collaborator",
+    "Facilitator", "Coordinator", "Liaison", "Representative",
+    "Director", "Manager", "Strategizer", "Architect",
+    "Developer", "Designer", "Innovator", "Implementer",
+    "Doer"
     ];
 
     return botNames[Math.floor(Math.random() * botNames.length)];
